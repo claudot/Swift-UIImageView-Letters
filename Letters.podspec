@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  Excellent placeholder for app user profil photo
+  Excellent placeholder for app user profil photo. This extension of UIImageView can allow you to have a placeholder in one line of code
                        DESC
 
   s.homepage         = 'https://github.com/claudot/Swift-UIImageView-Letters'
