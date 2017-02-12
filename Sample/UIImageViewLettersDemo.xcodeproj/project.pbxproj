@@ -14,8 +14,8 @@
 		072C34211E50858800E202A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072C341F1E50858800E202A4 /* LaunchScreen.storyboard */; };
 		072C342C1E50858800E202A4 /* UIImageViewLettersDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C342B1E50858800E202A4 /* UIImageViewLettersDemoTests.swift */; };
 		072C34371E50858800E202A4 /* UIImageViewLettersDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C34361E50858800E202A4 /* UIImageViewLettersDemoUITests.swift */; };
-		072C34461E5085AA00E202A4 /* UIImageView + Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C34451E5085AA00E202A4 /* UIImageView + Letters.swift */; };
 		072C34481E50874F00E202A4 /* LetterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C34471E50874F00E202A4 /* LetterTableViewCell.swift */; };
+		07674B041E50BD0C00DC90DE /* UIImageView + Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07674B031E50BD0C00DC90DE /* UIImageView + Letters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		072C34321E50858800E202A4 /* UIImageViewLettersDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageViewLettersDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		072C34361E50858800E202A4 /* UIImageViewLettersDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewLettersDemoUITests.swift; sourceTree = "<group>"; };
 		072C34381E50858800E202A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		072C34451E5085AA00E202A4 /* UIImageView + Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView + Letters.swift"; path = "../../UIImageView + Letters.swift"; sourceTree = "<group>"; };
 		072C34471E50874F00E202A4 /* LetterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterTableViewCell.swift; sourceTree = "<group>"; };
+		07674B031E50BD0C00DC90DE /* UIImageView + Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView + Letters.swift"; path = "../../UIImageView + Letters/UIImageView + Letters.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +134,7 @@
 		072C34441E50859C00E202A4 /* UIImageView + Letters */ = {
 			isa = PBXGroup;
 			children = (
-				072C34451E5085AA00E202A4 /* UIImageView + Letters.swift */,
+				07674B031E50BD0C00DC90DE /* UIImageView + Letters.swift */,
 			);
 			name = "UIImageView + Letters";
 			sourceTree = "<group>";
@@ -273,9 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07674B041E50BD0C00DC90DE /* UIImageView + Letters.swift in Sources */,
 				072C34191E50858800E202A4 /* ViewController.swift in Sources */,
 				072C34171E50858800E202A4 /* AppDelegate.swift in Sources */,
-				072C34461E5085AA00E202A4 /* UIImageView + Letters.swift in Sources */,
 				072C34481E50874F00E202A4 /* LetterTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
