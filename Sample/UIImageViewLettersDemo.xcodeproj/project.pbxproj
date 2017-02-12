@@ -15,7 +15,7 @@
 		072C342C1E50858800E202A4 /* UIImageViewLettersDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C342B1E50858800E202A4 /* UIImageViewLettersDemoTests.swift */; };
 		072C34371E50858800E202A4 /* UIImageViewLettersDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C34361E50858800E202A4 /* UIImageViewLettersDemoUITests.swift */; };
 		072C34481E50874F00E202A4 /* LetterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C34471E50874F00E202A4 /* LetterTableViewCell.swift */; };
-		07674B041E50BD0C00DC90DE /* UIImageView + Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07674B031E50BD0C00DC90DE /* UIImageView + Letters.swift */; };
+		07EC096E1E51020700CE2C3D /* UIImageView + Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC096D1E51020700CE2C3D /* UIImageView + Letters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		072C34361E50858800E202A4 /* UIImageViewLettersDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewLettersDemoUITests.swift; sourceTree = "<group>"; };
 		072C34381E50858800E202A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072C34471E50874F00E202A4 /* LetterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterTableViewCell.swift; sourceTree = "<group>"; };
-		07674B031E50BD0C00DC90DE /* UIImageView + Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView + Letters.swift"; path = "../../UIImageView + Letters/UIImageView + Letters.swift"; sourceTree = "<group>"; };
+		07EC096D1E51020700CE2C3D /* UIImageView + Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView + Letters.swift"; path = "../../Classes/UIImageView + Letters.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +134,7 @@
 		072C34441E50859C00E202A4 /* UIImageView + Letters */ = {
 			isa = PBXGroup;
 			children = (
-				07674B031E50BD0C00DC90DE /* UIImageView + Letters.swift */,
+				07EC096D1E51020700CE2C3D /* UIImageView + Letters.swift */,
 			);
 			name = "UIImageView + Letters";
 			sourceTree = "<group>";
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07674B041E50BD0C00DC90DE /* UIImageView + Letters.swift in Sources */,
+				07EC096E1E51020700CE2C3D /* UIImageView + Letters.swift in Sources */,
 				072C34191E50858800E202A4 /* ViewController.swift in Sources */,
 				072C34171E50858800E202A4 /* AppDelegate.swift in Sources */,
 				072C34481E50874F00E202A4 /* LetterTableViewCell.swift in Sources */,

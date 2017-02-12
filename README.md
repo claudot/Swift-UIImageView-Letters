@@ -14,6 +14,8 @@ An easy, helpful UIImageView extension that generates letter initials as a place
 
 Add this spec to your podfile:
 
++ `use_frameworks!`
++ `pod 'Letters'`
 
 Check out the [official guide](http://guides.cocoapods.org/using/index.html) for getting started with CocoaPods.
 
@@ -40,6 +42,10 @@ Call the following methods on any `UIImageView` instance to set the image:
 `isCircular` is a boolean parameter that will automatically clip the image to a circle if enabled.
 
 `textAttributes` is an NSDictionary that allows you to specify font, text color, shadow properties, etc., for the letters text, using the keys found in `NSAttributedString`.
+
+If you want to keep the same color for a given name, you can use
+
++ `class func colorForName(name: String?) -> UIColor`
 
 ##### Example
 

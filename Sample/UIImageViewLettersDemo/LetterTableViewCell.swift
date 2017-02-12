@@ -14,6 +14,6 @@ class LetterTableViewCell: UITableViewCell {
     
     func configure(name: String) {
         userLabel?.text = name
-        userImageView?.setImage(string: name, color: nil, circular: true)
+        userImageView?.setImage(string: name, color: UIColor.colorHash(name: name), circular: true)
     }
 }
