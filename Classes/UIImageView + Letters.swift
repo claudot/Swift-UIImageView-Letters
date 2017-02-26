@@ -10,19 +10,19 @@ import UIKit
 
 extension UIImageView {
     
-    func setImage(string: String?) {
+    open func setImage(string: String?) {
         setImage(string: string, color: nil, circular: false, textAttributes: nil)
     }
     
-    func setImage(string: String?, color: UIColor?) {
+    open func setImage(string: String?, color: UIColor?) {
         setImage(string: string, color: color, circular: false, textAttributes: nil)
     }
     
-    func setImage(string: String?, color: UIColor?, circular: Bool) {
+    open func setImage(string: String?, color: UIColor?, circular: Bool) {
         setImage(string: string, color: color, circular: circular, textAttributes: nil)
     }
     
-    func setImage(string: String?, color: UIColor?, circular: Bool, textAttributes: [String : Any]?) {
+    open func setImage(string: String?, color: UIColor?, circular: Bool, textAttributes: [String : Any]?) {
         var displayString = ""
         if let s = string {
             displayString = s.shortString()
@@ -80,7 +80,7 @@ extension UIImageView {
 
 // MARK: UIColor Helper
 extension UIColor {
-    class func randomColor() -> UIColor {
+    open class func randomColor() -> UIColor {
         srandom(arc4random())
         var red:Float = 0.0
         while (red < 0.1 || red > 0.84) {
@@ -97,7 +97,7 @@ extension UIColor {
         return UIColor.init(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: 1.0)
     }
     
-    class func colorHash(name: String?) -> UIColor {
+    open class func colorHash(name: String?) -> UIColor {
         if let n = name {
             var nameValue = 0
             for c in n.characters {
