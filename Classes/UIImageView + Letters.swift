@@ -127,10 +127,11 @@ extension String {
 
 	func shortString() -> String {
 		var finalString = String()
-		let words = components(separatedBy: .whitespacesAndNewlines)
+		var words = components(separatedBy: .whitespacesAndNewlines)
 
 		if let firstCharacter = words.first?.characters.first {
 			finalString.append(String(firstCharacter))
+			words.removeFirst()
 		}
 
 		if let lastCharacter = words.last?.characters.first {
