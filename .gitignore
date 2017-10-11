@@ -1,0 +1,64 @@
+# OS X
+*.DS_Store
+.idea/
+
+#fastlane
+fastlane/*
+!fastlane/Fastfile
+
+# Sonar
+.sonar/
+.sonar/*
+Sonar/
+sonar-reports
+compile_commands.json
+.LSOverride
+# run-sonar.sh
+# sonar-project.properties
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserdatad
+
+# cert
+*.mobileprovision
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+KIF Screenshots*
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# build
+builds/
+build/
+Build/
+DerivedData
+
+# temp nibs and swap files
+*~.nib
+*.swp
+*.orig
+
+# CocoaPods
+# Pods
+# Podfile.lock
