@@ -1,0 +1,14 @@
+excluded:
+- Pods
+
+disabled_rules:
+- force_cast
+
+line_length: 200
+type_name:
+  min_length: 1 # only warning
+
+identifier_name:
+  min_length: 2
+
+reporter: "xcode"

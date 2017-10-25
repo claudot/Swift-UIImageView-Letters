@@ -13,20 +13,12 @@
 		072C341E1E50858800E202A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072C341D1E50858800E202A4 /* Assets.xcassets */; };
 		072C34211E50858800E202A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072C341F1E50858800E202A4 /* LaunchScreen.storyboard */; };
 		072C342C1E50858800E202A4 /* UIImageViewLettersDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C342B1E50858800E202A4 /* UIImageViewLettersDemoTests.swift */; };
-		072C34371E50858800E202A4 /* UIImageViewLettersDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C34361E50858800E202A4 /* UIImageViewLettersDemoUITests.swift */; };
 		072C34481E50874F00E202A4 /* LetterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072C34471E50874F00E202A4 /* LetterTableViewCell.swift */; };
-		07EC096E1E51020700CE2C3D /* UIImageView + Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC096D1E51020700CE2C3D /* UIImageView + Letters.swift */; };
+		07EC096E1E51020700CE2C3D /* UIImageView+Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC096D1E51020700CE2C3D /* UIImageView+Letters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		072C34281E50858800E202A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 072C340B1E50858800E202A4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 072C34121E50858800E202A4;
-			remoteInfo = UIImageViewLettersDemo;
-		};
-		072C34331E50858800E202A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 072C340B1E50858800E202A4 /* Project object */;
 			proxyType = 1;
@@ -46,11 +38,8 @@
 		072C34271E50858800E202A4 /* UIImageViewLettersDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageViewLettersDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		072C342B1E50858800E202A4 /* UIImageViewLettersDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewLettersDemoTests.swift; sourceTree = "<group>"; };
 		072C342D1E50858800E202A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		072C34321E50858800E202A4 /* UIImageViewLettersDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageViewLettersDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		072C34361E50858800E202A4 /* UIImageViewLettersDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewLettersDemoUITests.swift; sourceTree = "<group>"; };
-		072C34381E50858800E202A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072C34471E50874F00E202A4 /* LetterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterTableViewCell.swift; sourceTree = "<group>"; };
-		07EC096D1E51020700CE2C3D /* UIImageView + Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView + Letters.swift"; path = "../../Classes/UIImageView + Letters.swift"; sourceTree = "<group>"; };
+		07EC096D1E51020700CE2C3D /* UIImageView+Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Letters.swift"; path = "../../Classes/UIImageView+Letters.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +57,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		072C342F1E50858800E202A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +65,6 @@
 			children = (
 				072C34151E50858800E202A4 /* UIImageViewLettersDemo */,
 				072C342A1E50858800E202A4 /* UIImageViewLettersDemoTests */,
-				072C34351E50858800E202A4 /* UIImageViewLettersDemoUITests */,
 				072C34141E50858800E202A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +74,6 @@
 			children = (
 				072C34131E50858800E202A4 /* UIImageViewLettersDemo.app */,
 				072C34271E50858800E202A4 /* UIImageViewLettersDemoTests.xctest */,
-				072C34321E50858800E202A4 /* UIImageViewLettersDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,14 +81,12 @@
 		072C34151E50858800E202A4 /* UIImageViewLettersDemo */ = {
 			isa = PBXGroup;
 			children = (
-				072C34441E50859C00E202A4 /* UIImageView + Letters */,
+				92A617F71FA0DD2E00EA134C /* Supporting Files */,
+				072C34441E50859C00E202A4 /* UIImageView+Letters */,
 				072C34161E50858800E202A4 /* AppDelegate.swift */,
 				072C34181E50858800E202A4 /* ViewController.swift */,
 				072C34471E50874F00E202A4 /* LetterTableViewCell.swift */,
 				072C341A1E50858800E202A4 /* Main.storyboard */,
-				072C341D1E50858800E202A4 /* Assets.xcassets */,
-				072C341F1E50858800E202A4 /* LaunchScreen.storyboard */,
-				072C34221E50858800E202A4 /* Info.plist */,
 			);
 			path = UIImageViewLettersDemo;
 			sourceTree = "<group>";
@@ -122,21 +100,22 @@
 			path = UIImageViewLettersDemoTests;
 			sourceTree = "<group>";
 		};
-		072C34351E50858800E202A4 /* UIImageViewLettersDemoUITests */ = {
+		072C34441E50859C00E202A4 /* UIImageView+Letters */ = {
 			isa = PBXGroup;
 			children = (
-				072C34361E50858800E202A4 /* UIImageViewLettersDemoUITests.swift */,
-				072C34381E50858800E202A4 /* Info.plist */,
+				07EC096D1E51020700CE2C3D /* UIImageView+Letters.swift */,
 			);
-			path = UIImageViewLettersDemoUITests;
+			name = "UIImageView+Letters";
 			sourceTree = "<group>";
 		};
-		072C34441E50859C00E202A4 /* UIImageView + Letters */ = {
+		92A617F71FA0DD2E00EA134C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				07EC096D1E51020700CE2C3D /* UIImageView + Letters.swift */,
+				072C341D1E50858800E202A4 /* Assets.xcassets */,
+				072C341F1E50858800E202A4 /* LaunchScreen.storyboard */,
+				072C34221E50858800E202A4 /* Info.plist */,
 			);
-			name = "UIImageView + Letters";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,24 +156,6 @@
 			productReference = 072C34271E50858800E202A4 /* UIImageViewLettersDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		072C34311E50858800E202A4 /* UIImageViewLettersDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 072C34411E50858800E202A4 /* Build configuration list for PBXNativeTarget "UIImageViewLettersDemoUITests" */;
-			buildPhases = (
-				072C342E1E50858800E202A4 /* Sources */,
-				072C342F1E50858800E202A4 /* Frameworks */,
-				072C34301E50858800E202A4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				072C34341E50858800E202A4 /* PBXTargetDependency */,
-			);
-			name = UIImageViewLettersDemoUITests;
-			productName = UIImageViewLettersDemoUITests;
-			productReference = 072C34321E50858800E202A4 /* UIImageViewLettersDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,12 +178,6 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 072C34121E50858800E202A4;
 					};
-					072C34311E50858800E202A4 = {
-						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 072C34121E50858800E202A4;
-					};
 				};
 			};
 			buildConfigurationList = 072C340E1E50858800E202A4 /* Build configuration list for PBXProject "UIImageViewLettersDemo" */;
@@ -240,7 +195,6 @@
 			targets = (
 				072C34121E50858800E202A4 /* UIImageViewLettersDemo */,
 				072C34261E50858800E202A4 /* UIImageViewLettersDemoTests */,
-				072C34311E50858800E202A4 /* UIImageViewLettersDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,13 +217,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		072C34301E50858800E202A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -277,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07EC096E1E51020700CE2C3D /* UIImageView + Letters.swift in Sources */,
+				07EC096E1E51020700CE2C3D /* UIImageView+Letters.swift in Sources */,
 				072C34191E50858800E202A4 /* ViewController.swift in Sources */,
 				072C34171E50858800E202A4 /* AppDelegate.swift in Sources */,
 				072C34481E50874F00E202A4 /* LetterTableViewCell.swift in Sources */,
@@ -292,14 +239,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		072C342E1E50858800E202A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				072C34371E50858800E202A4 /* UIImageViewLettersDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -307,11 +246,6 @@
 			isa = PBXTargetDependency;
 			target = 072C34121E50858800E202A4 /* UIImageViewLettersDemo */;
 			targetProxy = 072C34281E50858800E202A4 /* PBXContainerItemProxy */;
-		};
-		072C34341E50858800E202A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 072C34121E50858800E202A4 /* UIImageViewLettersDemo */;
-			targetProxy = 072C34331E50858800E202A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -498,34 +432,6 @@
 			};
 			name = Release;
 		};
-		072C34421E50858800E202A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = UIImageViewLettersDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.claudot.letters.UIImageViewLettersDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = UIImageViewLettersDemo;
-			};
-			name = Debug;
-		};
-		072C34431E50858800E202A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = UIImageViewLettersDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.claudot.letters.UIImageViewLettersDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = UIImageViewLettersDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -552,15 +458,6 @@
 			buildConfigurations = (
 				072C343F1E50858800E202A4 /* Debug */,
 				072C34401E50858800E202A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		072C34411E50858800E202A4 /* Build configuration list for PBXNativeTarget "UIImageViewLettersDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				072C34421E50858800E202A4 /* Debug */,
-				072C34431E50858800E202A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

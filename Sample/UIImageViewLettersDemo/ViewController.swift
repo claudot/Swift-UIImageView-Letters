@@ -1,22 +1,13 @@
-//
-//  ViewController.swift
-//  UIImageViewLettersDemo
-//
 //  Created by Paul-Anatole CLAUDOT on 12/02/2017.
 //  Copyright © 2017 PAC. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+final class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     // Model
     let users: [String] = ["Jean Paul", "Pierre-Anatole Jean", "Benjamin Per", "Antoine Ter", "Jean Paul", "Pierre-Anatole Jean", "Benjamin Per", "Antoine Ter", "Jean Paul", "Pierre-Anatole Jean", "Benjamin Per", "Antoine Ter"]
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
 
     // MARK: Delegate & Datasource
 
