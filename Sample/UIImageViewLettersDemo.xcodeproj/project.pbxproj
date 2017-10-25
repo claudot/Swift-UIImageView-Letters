@@ -39,7 +39,7 @@
 		072C342B1E50858800E202A4 /* UIImageViewLettersDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewLettersDemoTests.swift; sourceTree = "<group>"; };
 		072C342D1E50858800E202A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072C34471E50874F00E202A4 /* LetterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterTableViewCell.swift; sourceTree = "<group>"; };
-		07EC096D1E51020700CE2C3D /* UIImageView+Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Letters.swift"; path = "../../Classes/UIImageView+Letters.swift"; sourceTree = "<group>"; };
+		07EC096D1E51020700CE2C3D /* UIImageView+Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Letters.swift"; path = "../../../Classes/UIImageView+Letters.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 		072C340A1E50858800E202A4 = {
 			isa = PBXGroup;
 			children = (
+				072C34141E50858800E202A4 /* Products */,
 				072C34151E50858800E202A4 /* UIImageViewLettersDemo */,
 				072C342A1E50858800E202A4 /* UIImageViewLettersDemoTests */,
-				072C34141E50858800E202A4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,9 +84,9 @@
 				92A617F71FA0DD2E00EA134C /* Supporting Files */,
 				072C34441E50859C00E202A4 /* UIImageView+Letters */,
 				072C34161E50858800E202A4 /* AppDelegate.swift */,
-				072C34181E50858800E202A4 /* ViewController.swift */,
 				072C34471E50874F00E202A4 /* LetterTableViewCell.swift */,
 				072C341A1E50858800E202A4 /* Main.storyboard */,
+				072C34181E50858800E202A4 /* ViewController.swift */,
 			);
 			path = UIImageViewLettersDemo;
 			sourceTree = "<group>";
@@ -94,8 +94,8 @@
 		072C342A1E50858800E202A4 /* UIImageViewLettersDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				072C342B1E50858800E202A4 /* UIImageViewLettersDemoTests.swift */,
 				072C342D1E50858800E202A4 /* Info.plist */,
+				072C342B1E50858800E202A4 /* UIImageViewLettersDemoTests.swift */,
 			);
 			path = UIImageViewLettersDemoTests;
 			sourceTree = "<group>";
@@ -105,17 +105,17 @@
 			children = (
 				07EC096D1E51020700CE2C3D /* UIImageView+Letters.swift */,
 			);
-			name = "UIImageView+Letters";
+			path = "UIImageView+Letters";
 			sourceTree = "<group>";
 		};
 		92A617F71FA0DD2E00EA134C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				072C341D1E50858800E202A4 /* Assets.xcassets */,
-				072C341F1E50858800E202A4 /* LaunchScreen.storyboard */,
 				072C34221E50858800E202A4 /* Info.plist */,
+				072C341F1E50858800E202A4 /* LaunchScreen.storyboard */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +256,7 @@
 				072C341B1E50858800E202A4 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		072C341F1E50858800E202A4 /* LaunchScreen.storyboard */ = {
@@ -264,6 +265,7 @@
 				072C34201E50858800E202A4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -379,7 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4LZBFVML4B;
-				INFOPLIST_FILE = UIImageViewLettersDemo/Info.plist;
+				INFOPLIST_FILE = "UIImageViewLettersDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.claudot.letters.UIImageViewLettersDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -393,7 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4LZBFVML4B;
-				INFOPLIST_FILE = UIImageViewLettersDemo/Info.plist;
+				INFOPLIST_FILE = "UIImageViewLettersDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.claudot.letters.UIImageViewLettersDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
