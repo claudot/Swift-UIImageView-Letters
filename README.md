@@ -3,10 +3,10 @@ UIImageView + Letters
 
 Inspired by https://github.com/bachonk/UIImageView-Letters
 
-An easy, helpful UIImageView extension that generates letter initials as a placeholder for user profile images, with a randomized background color if needed
+An easy, helpful UIImageView extension that generates letter initials as a placeholder for user profile images, with a randomized background color if needed.
 
-![Screenshot](screen1.png)
-![Screenshot](screen2.png)
+![Screenshot](Sample/screen1.png)
+![Screenshot](Sample/screen2.png)
 
 ### Installation
 
