@@ -121,7 +121,7 @@ extension UIColor {
         }
 
         var nameValue = 0
-        for character in name.characters {
+        for character in name {
             let characterString = String(character)
             let scalars = characterString.unicodeScalars
             nameValue += Int(scalars[scalars.startIndex].value)
@@ -148,12 +148,12 @@ extension String {
         var finalString = String()
         var words = components(separatedBy: .whitespacesAndNewlines)
 
-        if let firstCharacter = words.first?.characters.first {
+        if let firstCharacter = words.first?.first {
             finalString.append(String(firstCharacter))
             words.removeFirst()
         }
 
-        if let lastCharacter = words.last?.characters.first {
+        if let lastCharacter = words.last?.first {
             finalString.append(String(lastCharacter))
         }
 
